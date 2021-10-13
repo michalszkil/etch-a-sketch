@@ -1,0 +1,1 @@
+Opisać projekt na koniec
