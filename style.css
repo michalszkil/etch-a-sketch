@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+header {
+    background-color: #000;
+    width: 100%;
+    height: 200px;
+}
+
+#main {
+    display: flex;
+    background-color: yellow;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    border: 10px solid black;
+}
+
+#square {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
