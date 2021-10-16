@@ -18,3 +18,11 @@ for(let i = 0; i < squares.length; i++) {
         this.classList.add("square-colored");
     })
 }
+
+button_clear = document.getElementById("btn-clear");
+
+button_clear.addEventListener("click", function() {
+    for (let i = 0; i < squares.length; i++) {
+        squares[i].classList.remove("square-colored")
+    }
+})
