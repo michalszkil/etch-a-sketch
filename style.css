@@ -3,14 +3,32 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    height: 100vh;
+    /* min-height: 100%; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #BEB8EB;
 }
 
 header {
-    background-color: #000;
+    background-color: #0B5563;
     width: 100%;
-    height: 50px;
+    height: 40px;
+}
+
+#title {
+    font-size: 28px;
+    color: #0B5563;
+    background-color: #d8b8eb;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5E5C6C;
 }
 
 #nav {
@@ -19,23 +37,43 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    font-size: 20px;
 }
 
-#btn-clear {
-    height: 50px;
+#sizeRangeDiv {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-#btn-resize {
+button {
     height: 50px;
+    width: 100px;
+    background-color: #0B5563;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+#rainbow_label {
+    font-weight: bold;
 }
 
 #main {
     display: flex;
     background-color: yellow;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     flex-wrap: wrap;
-    border: 10px solid black;
+    border: 10px solid #5E5C6C;
 }
 
 .square {
@@ -46,4 +84,22 @@ header {
 
 .square-colored {
     background-color: black;
+}
+
+#game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+footer {
+    background-color: #0B5563;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+    font-size: 20px;
 }
